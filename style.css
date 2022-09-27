@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Balsamiq+Sans&family=Lato&family=Mingzat&family=Open+Sans:wght@500&display=swap');
+#container{
+    width: 50vw;
+    height: 60vh;
+    /* overflow-y: auto; */
+    background-color: rgb(151, 234, 234);
+    color: black;
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 8px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+#listitems{
+    width: 40vw;
+    height: 5vh;
+    margin: 30px 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 9px;
+}
+#additems{
+    height:8vh ;
+    width: 5vw;
+    margin: 30px auto;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#itemstodo{
+    width: 30vw;
+    overflow-y: auto;
+    
+    /* background-color: black; */
+    position: absolute;
+    height: 40vh;
+    left: 26vw;
+    
+    
+}
+.styling{
+    margin: 3px 0px;
+    /* list-style: disc; */
+    font-family: 'Mingzat', sans-serif;
+    font-size: 20px;
+}
+#heading{
+    position: absolute;
+    left: 46vw;
+    margin: 10px 0px;
+    /* font-family: 'Mingzat', sans-serif; */
+}

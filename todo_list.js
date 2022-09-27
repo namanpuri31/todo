@@ -5,7 +5,7 @@ let itemtodo=document.getElementById("itemstodo")
 add.addEventListener("click",()=>{
     let items=document.createElement("ul")
     items.classList.add("styling")
-    items.innerText=`${lstitem.value}`
+    items.innerText=`>${lstitem.value}`
     itemtodo.appendChild(items)
     lstitem.value=""
     items.addEventListener("click",()=>{
